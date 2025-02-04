@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KnowMyCurrency.com</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="cascade.css" />
+  </head>
+  <body>
+    <!-- Navigation bar for the website -->
+    <nav>
+        <!-- Logo of the brand -->
+      <div class="brand">KnowMyCurrency</div>
+        <!-- Navigation links -->
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/more">More</a></li>
+      </ul>
+      <!-- Clock for the website -->
+      <div class="clock" id="clock"></div>
+    </nav>
+    <!-- Main content of the website -->
+    <div class="container">
+      <h1>Choose a currency to convert</h1>
+        <!-- Form for the currency conversion -->
+      <form action="/action.php" method="get">
+        <label for="quantity">Amount: </label>
+        <input type="number" name="quantity" />
+        <!--Selection of the currency-->
+        <label for="currency">Choose a currency: </label>
+        <select name="currency">
+          <option value="USD">USD - US Dollar</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="INR">INR - Indian Rupee</option>
+          <option value="GBP">GBP - British Pound</option>
+          <option value="JPY">JPY - Japanese Yen</option>
+          <option value="AUD">AUD - Australian Dollar</option>
+          <option value="CAD">CAD - Canadian Dollar</option>
+          <option value="CHF">CHF - Swiss Franc</option>
+          <option value="CNY">CNY - Chinese Yuan</option>
+          <option value="SEK">SEK - Swedish Krona</option>
+          <option value="NZD">NZD - New Zealand Dollar</option>
+          <option value="SGD">SGD - Singapore Dollar</option>
+          <option value="HKD">HKD - Hong Kong Dollar</option>
+          <option value="NOK">NOK - Norwegian Krone</option>
+          <option value="KRW">KRW - South Korean Won</option>
+          <option value="TRY">TRY - Turkish Lira</option>
+          <option value="RUB">RUB - Russian Ruble</option>
+          <option value="BRL">BRL - Brazilian Real</option>
+          <option value="ZAR">ZAR - South African Rand</option>
+          <option value="MXN">MXN - Mexican Peso</option>
+          <option value="IDR">IDR - Indonesian Rupiah</option>
+          <option value="MYR">MYR - Malaysian Ringgit</option>
+          <option value="PHP">PHP - Philippine Peso</option>
+          <option value="THB">THB - Thai Baht</option>
+          <option value="PLN">PLN - Polish Złoty</option>
+          <option value="HUF">HUF - Hungarian Forint</option>
+          <option value="CZK">CZK - Czech Koruna</option>
+          <option value="AED">AED - UAE Dirham</option>
+          <option value="SAR">SAR - Saudi Riyal</option>
+        </select>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+      <!-- Output Field -->
+      <div class="output">
+        <h2>Currency Converted</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Currency</th>
+              <th>Currency Code</th>
+              <th>Currency Value</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- Footer of the website -->
+    <footer>
+      Copyright &copy; All rights reserved. Designed by Harsh Yadav.
+    </footer>
+    <!-- Script for the backend -->
+    <script src="backend.js"></script>
+  </body>
+</html>
