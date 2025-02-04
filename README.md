@@ -20,8 +20,11 @@ How To Use:
  1). Open the index.html file in a web browser.
  2). Select the base currency and target currency from the dropdowns.
  3). Enter the amount to be converted.
- 4). Click the "Convert" button to get the latest exchange rate.
+ 4). Click the "Convert" button for the latest exchange rate.
 
+Link to the webpage:
+ https://sankalp18yadav.github.io/Currency-Converter/
+ 
 Made with ❤️ by Sankalp Yadav.
 
 
