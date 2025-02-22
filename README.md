@@ -25,6 +25,6 @@ How To Use:
 Link to the webpage:
  https://sankalp18yadav.github.io/Currency-Converter/
  
-Made with ❤️ by Sankalp Yadav.
+Made with ❤️ by Sankalp Yadav aka Harsh Yadav.
 
 
